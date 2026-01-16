@@ -1,0 +1,84 @@
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+!.vscode/settings.json
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+build/
+dist/
+
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# MATLAB
+# =========================
+*.asv
+*.m~
+*.autosave
+slprj/
+*.mex*
+*.fig
+
+# =========================
+# Data (protect large / raw data)
+# =========================
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.mat
+*.h5
+
+# =========================
+# Archives / exports
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# =========================
+# Logs
+# =========================
+*.log
+# Capitalized folders (Windows-safe)
+Data/raw/
+Data/processed/
+
+
+!Data/raw/example*
+!Data/processed/example*
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+ENV/
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
