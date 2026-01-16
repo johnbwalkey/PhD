@@ -21,6 +21,9 @@ __pycache__/
 .env
 .venv/
 venv/
+build/
+dist/
+
 
 # =========================
 # Jupyter
@@ -64,3 +67,18 @@ data/processed/
 # Capitalized folders (Windows-safe)
 Data/raw/
 Data/processed/
+
+
+!Data/raw/example*
+!Data/processed/example*
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+ENV/
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
