@@ -19,6 +19,10 @@ This paragraph contains some basic text formatting. You can make text *italic* (
 > 
 > *   Blockquotes can contain other Markdown elements too.
 
+CAN DO UP TO 6 hash tags
+#### 4 of them
+##### words
+###### testing
 ---
 
 ## Lists
