@@ -8,7 +8,7 @@ Thumbs.db
 # Editors / IDEs
 # =========================
 .vscode/
-!.vscode/settings.json
+.vscode/settings.json
 
 # =========================
 # Python
